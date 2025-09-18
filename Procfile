@@ -1,0 +1,1 @@
+checker: python link_checker_bot.py
