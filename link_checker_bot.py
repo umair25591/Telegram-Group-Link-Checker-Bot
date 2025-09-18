@@ -7,7 +7,6 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from telethon.sync import TelegramClient
 from telethon.errors.rpcerrorlist import InviteHashExpiredError, InviteHashInvalidError, ChannelPrivateError, FloodWaitError
 
-load_dotenv()
 BOT_TOKEN = os.environ.get("CHECKER_BOT_TOKEN")
 API_ID = os.environ.get("API_ID")
 API_HASH = os.environ.get("API_HASH")
